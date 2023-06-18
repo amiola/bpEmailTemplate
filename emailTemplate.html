@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Beach Park Email</title>
+    <style>
+      h1 {
+        color: #264f9f;
+        font-size: 2.5rem;
+        font-family: "Roboto Condensed", sans-serif;
+      }
+      h2 {
+        font-family: "Roboto Condensed", sans-serif;
+        color: #264f9f;
+      }
+      .email-template {
+        width: 40rem;
+        margin: auto;
+        background-color: #fcfcfc;
+        font-family: "Roboto", sans-serif;
+        box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2),
+          0px 30px 60px rgba(0, 0, 0, 0.1);
+      }
+      .img-container {
+        text-align: center;
+      }
+      img {
+        width: 100%;
+      }
+      .text-container {
+        width: 85%;
+        margin: auto;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      .btn-container {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      .btn {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        border-radius: 1rem;
+        background-color: #00853f;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+      }
+      .btn:hover {
+        transform: scale(1.05);
+      }
+      footer {
+        background: linear-gradient(transparent, rgba(18, 148, 223, 0.7)),
+          url("https://scontent.frec3-1.fna.fbcdn.net/v/t39.30808-6/316536055_10158644915761945_5196225517286194180_n.jpg?stp=dst-jpg_s960x960&_nc_cat=100&ccb=1-7&_nc_sid=e3f864&_nc_ohc=whKLaYp3h7wAX8uybb-&_nc_ht=scontent.frec3-1.fna&oh=00_AfDt2qWARVb15vhbBBa3IgAEewogcT8Qk1i-PyiqURP59A&oe=6493E2CB");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .endereco {
+        text-align: center;
+        color: white;
+        background: linear-gradient(
+          rgba(18, 148, 223, 0.1),
+          rgba(18, 148, 223, 1)
+        );
+      }
+      .links {
+        font-size: 0.85rem;
+      }
+      .icones {
+        background-color: rgba(18, 148, 223, 1);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      .icon {
+        width: 1.5rem;
+        padding: 1rem;
+      }
+      .icon img {
+        cursor: pointer;
+      }
+      .icon:hover {
+        transform: scale(1.05);
+      }
+      .red {
+        background-color: #eb4961;
+      }
+      .orange {
+        background-color: #f0b006;
+      }
+      .yellow {
+        background-color: rgba(252, 252, 24, 0.959);
+      }
+      .green {
+        background-color: #00853f;
+      }
+      .light-blue {
+        background-color: #04b4ed;
+      }
+      .light-blue img {
+        height: 1.5rem;
+        width: auto;
+      }
+      .blue {
+        background-color: #264f9f;
+      }
+      .violet {
+        background-color: #b92d4a;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="email-template">
+      <div class="img-container">
+        <img
+          src="https://www.beachpark.com.br/ajuda/wp-content/uploads/2021/06/logo.png"
+          alt="beach park img"
+        />
+      </div>
+      <div class="text-container">
+        <h1>Olá, Bruno!</h1>
+        <p>
+          Obrigado por escolher o Aqua Beach Park Resort para a sua estadia
+          recente na cidade. Foi um prazer tê-lo como nosso hóspede. Gostaríamos
+          de aproveitar esta oportunidade para agradecer pela sua colaboração e
+          esperamos vê-lo novamente em breve.
+        </p>
+        <p>
+          Gostaríamos de ressaltar que estamos constantemente realizando
+          trabalhos para melhorar a qualidade do serviço, e ficaríamos muito
+          gratos se você deixasse sua opinião. Suas observações nos ajudarão a
+          escolher a direção certa.
+        </p>
+        <h2>Sua opinião é muito importante para nós!</h2>
+        <div class="btn-container">
+          <button class="btn"><a href="">Responder enquete</a></button>
+        </div>
+      </div>
+      <footer>
+        <div class="endereco">
+          <p>
+            R. Porto das Dunas, 2734 - Porto das Dunas - Aquiraz - RN <br />
+            CEP: 61700-000 <br />
+            Tel.: (85) 4012-3000
+          </p>
+          <p class="links">
+            <a href="https://beachpark.com.br/faq">Perguntas & Respostas</a> |
+            <a href="https://beachpark.com.br/contato">Entre em contato</a> |
+            <a
+              href="https://beachpark.siteletsbook.com.br/politica-de-privacidade-beach-park?_ga=2.173965483.928236089.1687090584-753708022.1686678865&_gl=1*1ictfqq*_ga*NzUzNzA4MDIyLjE2ODY2Nzg4NjU.*_ga_L55TE9NX6N*MTY4NzA5NDU5OS40LjEuMTY4NzA5NjE0MC42MC4wLjA.*_ga_WZP8TK57VG*MTY4NzA5NDYwMC40LjEuMTY4NzA5NjE0MC42MC4wLjA."
+              >Política de Privacidade</a
+            >
+            |
+            <a
+              href="https://beachpark.siteletsbook.com.br/termos-de-uso?_ga=2.185634593.928236089.1687090584-753708022.1686678865&_gl=1*1jmqv06*_ga*NzUzNzA4MDIyLjE2ODY2Nzg4NjU.*_ga_L55TE9NX6N*MTY4NzA5NDU5OS40LjEuMTY4NzA5NjE0MC42MC4wLjA.*_ga_WZP8TK57VG*MTY4NzA5NDYwMC40LjEuMTY4NzA5NjE0MC42MC4wLjA."
+              >Termos de Uso</a
+            >
+            |
+            <a
+              href="https://beachpark.solides.jobs/vacancies/206795?__hstc=127459538.df858e687eab432d9f5d611cf68f9691.1673013162262.1673462369538.1673465007747.15&__hssc=127459538.5.1673465007747&__hsfp=1123496843"
+              >Trabalhe conosco</a
+            >
+          </p>
+          <p>
+            <a href="https://beachpark.com.br/">Beach Park</a> &copy; | 2023
+          </p>
+        </div>
+      </footer>
+      <div class="icones">
+        <a href="https://www.facebook.com/BeachParkBrasil">
+          <div class="icon red">
+            <img src="icons/facebook.png" alt="facebook" /></div
+        ></a>
+
+        <a href="https://twitter.com/beachpark"
+          ><div class="icon orange">
+            <img src="icons/twitter.png" alt="twitter" /></div
+        ></a>
+
+        <a href="http://instagram.com/beachpark"
+          ><div class="icon yellow">
+            <img src="icons/instagram.png" alt="instagram" /></div
+        ></a>
+
+        <a href="https://plus.google.com/113415420858279641850">
+          <div class="icon green">
+            <img src="icons/google-plus.png" alt="google-plus" /></div
+        ></a>
+
+        <a href="http://veraooanointeiro.tumblr.com/">
+          <div class="icon light-blue">
+            <img src="icons/tumblr.png" alt="tumblr" /></div
+        ></a>
+
+        <a
+          href="http://blog.beachpark.com.br/?_ga=2.217624478.928236089.1687090584-753708022.1686678865&_gl=1*92a6ks*_ga*NzUzNzA4MDIyLjE2ODY2Nzg4NjU.*_ga_WZP8TK57VG*MTY4NzA5NDYwMC40LjEuMTY4NzA5ODg0Ni42MC4wLjA.*_ga_L55TE9NX6N*MTY4NzA5NDU5OS40LjEuMTY4NzA5ODg0Ni42MC4wLjA."
+          ><div class="icon blue"><img src="icons/blog.png" alt="blog" /></div
+        ></a>
+
+        <a
+          href="http://radio.beachpark.com.br/?_ga=2.248475407.928236089.1687090584-753708022.1686678865&_gl=1*gxfsjk*_ga*NzUzNzA4MDIyLjE2ODY2Nzg4NjU.*_ga_WZP8TK57VG*MTY4NzA5NDYwMC40LjEuMTY4NzA5ODg0Ni42MC4wLjA.*_ga_L55TE9NX6N*MTY4NzA5NDU5OS40LjEuMTY4NzA5ODg0Ni42MC4wLjA."
+          ><div class="icon violet">
+            <img src="icons/radio.png" alt="radio" /></div
+        ></a>
+
+        <a href="https://www.youtube.com/channel/UCSqPlEIkHZDhBuV9eSVi17w"
+          ><div class="icon red">
+            <img src="icons/youtube.png" alt="youtube" /></div
+        ></a>
+      </div>
+    </section>
+  </body>
+</html>
